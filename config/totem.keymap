@@ -56,35 +56,33 @@ ZMK_BEHAVIOR(hmr, hold_tap,
     hold-trigger-on-release;             // delay positional check until key-release
 )
 
-/ {
-     combos {
-              compatible = "zmk,combos";
-/*                      38 KEY MATRIX 
+/*                      
+38 KEY MATRIX 
        
-                  ╭────────────────────┬────────────────────╮     
-                  │  0   1   2   3   4 │  5   6   7   8   9 │      
-               ╭──╯ 10  11  12  13  14 │ 15  16  17  18  19 ╰───╮ 
-               │ 20 21  22  23  24  25 │ 26  27  28  29  30  31 │ 
-               ╰──────────╮ 32  33  34 │ 35  36  37 ╭───────────╯ 
-                          ╰────────────┴────────────╯             
+   ╭────────────────────┬────────────────────╮     
+   │  0   1   2   3   4 │  5   6   7   8   9 │      
+╭──╯ 10  11  12  13  14 │ 15  16  17  18  19 ╰───╮ 
+│ 20 21  22  23  24  25 │ 26  27  28  29  30  31 │ 
+╰──────────╮ 32  33  34 │ 35  36  37 ╭───────────╯ 
+	  ╰────────────┴────────────╯             
 */
-		//Left
-		ZMK_COMBO(esc,&kp ESC,0 1,COLEMAKDH,COMBO_TERM_NORMAL)
-		ZMK_COMBO(lbrc,&kp LBRC,1 2,COLEMAKDH,COMBO_TERM_NORMAL)
-		ZMK_COMBO(rbrc,&kp RBRC,2 3,COLEMAKDH,COMBO_TERM_NORMAL)
-		ZMK_COMBO(lpar,&kp LPAR,11 12,COLEMAKDH,COMBO_TERM_NORMAL)
-		ZMK_COMBO(rpar,&kp RPAR,12 13,COLEMAKDH,COMBO_TERM_NORMAL)
-		ZMK_COMBO(lbkt,&kp LBKT,22 23,COLEMAKDH,COMBO_TERM_NORMAL)
-		ZMK_COMBO(rbkt,&kp RBKT,23 24,COLEMAKDH,COMBO_TERM_NORMAL)
-		
-		//Right
-		ZMK_COMBO(minus,&kp MINUS,6 7,COLEMAKDH,COMBO_TERM_NORMAL)
-		ZMK_COMBO(under,&kp UNDER,7 8,COLEMAKDH,COMBO_TERM_NORMAL)
-		ZMK_COMBO(astrk,&kp ASTRK,16 17,COLEMAKDH,COMBO_TERM_NORMAL)
-		ZMK_COMBO(equal,&kp EQUAL,17 18,COLEMAKDH,COMBO_TERM_NORMAL)
-		ZMK_COMBO(less,&kp LT,27 28,COLEMAKDH,COMBO_TERM_NORMAL)
-		ZMK_COMBO(grtr,&kp GT,28 29,COLEMAKDH,COMBO_TERM_NORMAL)
-    };
+//Left
+ZMK_COMBO(esc,&kp ESC,0 1,COLEMAKDH,COMBO_TERM_NORMAL)
+ZMK_COMBO(lbrc,&kp LBRC,1 2,COLEMAKDH,COMBO_TERM_NORMAL)
+ZMK_COMBO(rbrc,&kp RBRC,2 3,COLEMAKDH,COMBO_TERM_NORMAL)
+ZMK_COMBO(lpar,&kp LPAR,11 12,COLEMAKDH,COMBO_TERM_NORMAL)
+ZMK_COMBO(rpar,&kp RPAR,12 13,COLEMAKDH,COMBO_TERM_NORMAL)
+ZMK_COMBO(lbkt,&kp LBKT,22 23,COLEMAKDH,COMBO_TERM_NORMAL)
+ZMK_COMBO(rbkt,&kp RBKT,23 24,COLEMAKDH,COMBO_TERM_NORMAL)
+
+//Right
+ZMK_COMBO(minus,&kp MINUS,6 7,COLEMAKDH,COMBO_TERM_NORMAL)
+ZMK_COMBO(under,&kp UNDER,7 8,COLEMAKDH,COMBO_TERM_NORMAL)
+ZMK_COMBO(astrk,&kp ASTRK,16 17,COLEMAKDH,COMBO_TERM_NORMAL)
+ZMK_COMBO(equal,&kp EQUAL,17 18,COLEMAKDH,COMBO_TERM_NORMAL)
+ZMK_COMBO(less,&kp LT,27 28,COLEMAKDH,COMBO_TERM_NORMAL)
+ZMK_COMBO(grtr,&kp GT,28 29,COLEMAKDH,COMBO_TERM_NORMAL)
+
 
    
 
