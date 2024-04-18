@@ -99,17 +99,17 @@ label= "COLEMAKDH"                         ;
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃     A     ┃     R     ┃     S     ┃     T     ┃     G     ┃   ┃     M     ┃     N     ┃     E     ┃     I     ┃     O     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃     Q     ┃     Z     ┃     X     ┃     C     ┃     D     ┃     V     ┃   ┃     K     ┃     H     ┃     ,     ┃     .     ┃     /     ┃     \     ┃
+// ┃     Q     ┃     Z     ┃     X     ┃     C     ┃     D     ┃     V     ┃   ┃     K     ┃     H     ┃     ,     ┃     .     ┃     /     ┃     "     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃    DEL    ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃           ┃   BSPC    ┃
+//                                     ┃    DEL    ┃    TAB    ┃    ENTER  ┃   ┃   SYM     ┃    SPC    ┃   BSPC    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp Q        &kp W        &kp F        &kp P         &kp B           &kp J       &kp L         &kp U        &kp Y        &kp SEMI
                 &hml LGUI A  &hml LALT R  &hml LCTRL S &hml LSHFT T  &kp G           &kp M       &hmr RSHFT N  &hmr RCTRL E &hmr RALT I  &hmr RGUI O
-    &kp Q       &kp Z        &kp X        &kp C        &kp D         &kp V           &kp K       &kp H         &kp COMMA    &kp DOT      &kp FSLH     &kp BSLH
-                                          &kp DEL      &lt NAV TAB   &kp SPACE       &kp RET     &lt SYM ESC   &kp BSPC
+    &kp LCTRL   &kp Z        &kp X        &kp C        &kp D         &kp V           &kp K       &kp H         &kp COMMA    &kp DOT      &kp FSLH     &hmr RSHIFT APOS
+                                          &lt ADJ DEL  &lt NAV SPACE &lt NAV RET     &mo SYM     &kp SPACE     &kp BSPC
                         >;
                 };
 
