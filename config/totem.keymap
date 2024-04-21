@@ -101,7 +101,7 @@ label= "COLEMAKDH"                         ;
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃     Q     ┃     Z     ┃     X     ┃     C     ┃     D     ┃     V     ┃   ┃     K     ┃     H     ┃     ,     ┃     .     ┃     /     ┃     "     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃    DEL    ┃   ENTER   ┃    SPACE  ┃   ┃   SPACE   ┃    BSPC   ┃   TAB     ┃
+//                                     ┃    DEL    ┃   SPACE   ┃   ENTER   ┃   ┃   SPACE   ┃    BSPC   ┃   TAB     ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
@@ -109,7 +109,7 @@ label= "COLEMAKDH"                         ;
                 &kp Q        &kp W        &kp F        &kp P         &kp B           &kp J          &kp L         &kp U        &kp Y        &kp SEMI
                 &hml LGUI A  &hml LALT R  &hml LCTRL S &hml LSHFT T  &kp G           &kp M          &hmr RSHFT N  &hmr RCTRL E &hmr RALT I  &hmr RGUI O
     &kp LCTRL   &kp Z        &kp X        &kp C        &kp D         &kp V           &kp K          &kp H         &kp COMMA    &kp DOT      &kp FSLH     &hmr RSHIFT APOS
-                                          &lt ADJ DEL  &lt NAV RET   &lt NAV SPACE   &lt SYM SPACE  &kp BSPC      &kp TAB
+                                          &lt ADJ DEL  &lt NAV SPACE &lt NAV RET     &lt SYM SPACE  &kp BSPC      &kp TAB
                         >;
                 };
 
