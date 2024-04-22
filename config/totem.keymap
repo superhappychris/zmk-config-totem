@@ -19,6 +19,8 @@
 #include "./helper.h"
 #include "./keypos_38keys.h"
 
+#define ___ &trans
+
 #define COLEMAKDH 0
 #define NUM  1
 #define SYM  2
