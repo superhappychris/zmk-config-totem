@@ -110,7 +110,7 @@ label= "COLEMAKDH"                         ;
                 &kp Q        &kp W        &kp F        &kp P         &kp B           &kp J          &kp L         &kp U        &kp Y        &kp SEMI
                 &hml LGUI A  &hml LALT R  &hml LCTRL S &hml LSHFT T  &kp G           &kp M          &hmr RSHFT N  &hmr RCTRL E &hmr RALT I  &hmr RGUI O
     &kp LCTRL   &kp Z        &kp X        &kp C        &kp D         &kp V           &kp K          &kp H         &kp COMMA    &kp DOT      &kp FSLH     &hmr RSHIFT APOS
-                                          &lt ADJ DEL  &lt NUM SPACE &lt NAV RET     &lt SYM SPACE  &kp BSPC      &kp TAB
+                                          &lt ADJ DEL  &lt NUM SPACE &lt NAV RET     &kp SPACE      &kp BSPC      &lt SYM TAB
                         >;
                 };
 
@@ -202,6 +202,6 @@ ZMK_LAYER(nav_layer,
      // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
           ___           ___           ___           ___           ___               ___           &kp LC(X)     &kp LC(INS)   &kp LS(INS)   ___
      // ╰─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                                      ___           ___           ___               ___           ___           ___
+                                      ___           ___           ___               ___           &kp DEL       ___
      //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
 )
