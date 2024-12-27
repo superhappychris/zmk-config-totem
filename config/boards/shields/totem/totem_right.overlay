@@ -11,8 +11,8 @@
 };
 
 &kscan0 {
-    // overridden here because the diodes were installed backward on this half
-    diode-direction = "row2col"; 
+    // DONT override here because the diodes were installed backward on this half
+    // diode-direction = "row2col"; 
     col-gpios
         = <&xiao_d 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
